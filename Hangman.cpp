@@ -8,7 +8,7 @@
 #include<algorithm>
 using namespace std;
 int main(){
-	vector<string>words={"BACON","COOL","NERD","FLAMBOYANT","JERK","PIG","CAT",
+	const vector<string>words={"BACON","COOL","NERD","FLAMBOYANT","JERK","PIG","CAT",
 	"DOG","INTERESTING","SARCASTIC","CHICKEN","PIZZA","PROGRAM","GUITAR","VIOLIN",
 	"ANTIDISESTABLISHMENTARIANISM,","COMPUTER","CANNON","GAME","URINE","FOOD"};
 	vector<string>::size_type w;
